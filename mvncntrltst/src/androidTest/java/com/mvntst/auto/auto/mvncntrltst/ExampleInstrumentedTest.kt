@@ -1,4 +1,4 @@
-package com.verygoodsecurity.auto.auto.testmavencentral
+package com.mvntst.auto.auto.mvncntrltst
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.verygoodsecurity.auto.auto.testmavencentral", appContext.packageName)
+        assertEquals("com.mvntst.auto.auto.mvncntrltst.test", appContext.packageName)
     }
 }

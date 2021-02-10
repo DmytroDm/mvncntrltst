@@ -1,4 +1,4 @@
-package com.verygoodsecurity.auto.auto.testmavencentral
+package com.mvntst.auto.auto.mvncntrltst
 
 import org.junit.Test
 

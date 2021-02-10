@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.verygoodsecurity.auto.auto.testmavencentral"
+        applicationId "com.mvntst.auto.auto.testmavencentral"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

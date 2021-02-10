@@ -1,4 +1,4 @@
-package com.verygoodsecurity.auto.auto.mvncntrltst
+package com.mvntst.auto.auto.mvncntrltst
 
 import android.util.Log
 
