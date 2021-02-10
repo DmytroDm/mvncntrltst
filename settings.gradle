@@ -1,0 +1,3 @@
+include ':mvncntrltst'
+include ':app'
+rootProject.name = "TestMavenCentral"
