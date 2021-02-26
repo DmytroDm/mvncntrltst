@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.mvntst.auto.auto.mvncntrltst.EchoView
         android:id="@+id/tvHelloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,5 +15,4 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
