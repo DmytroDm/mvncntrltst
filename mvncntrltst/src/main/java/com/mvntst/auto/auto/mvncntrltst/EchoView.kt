@@ -10,6 +10,9 @@ class EchoView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : MaterialTextView(context, attrs, defStyleAttr) {
 
+    /**
+     * Print echo log
+     */
     fun echo() {
         Echo.echo()
     }
