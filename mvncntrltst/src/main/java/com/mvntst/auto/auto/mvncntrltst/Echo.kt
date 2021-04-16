@@ -5,6 +5,6 @@ import android.util.Log
 object Echo {
 
     fun echo() {
-        Log.i("Echo", "Hello world!")
+        Log.i("Echo", "Echo!")
     }
 }

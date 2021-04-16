@@ -2,6 +2,8 @@ package com.mvntst.auto.auto.mvncntrltst
 
 import android.content.Context
 import android.util.AttributeSet
+import android.util.Log
+import androidx.annotation.RestrictTo
 import com.google.android.material.textview.MaterialTextView
 
 class EchoView @JvmOverloads constructor(
@@ -14,6 +16,8 @@ class EchoView @JvmOverloads constructor(
      * Print echo log
      */
     fun echo() {
+        val stackTrace = Thread.currentThread().stackTrace
+        Log.d("Test", "stackTrace = $stackTrace")
         Echo.echo()
     }
 }
