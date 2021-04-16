@@ -1,10 +1,8 @@
 package com.mvntst.auto.auto.mvncntrltst
 
-import android.util.Log
+class Echo : BaseEcho() {
 
-object Echo {
-
-    fun echo() {
-        Log.i("Echo", "Hello world!")
+    fun printEcho() {
+        echo()
     }
 }

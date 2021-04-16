@@ -1,10 +1,10 @@
-package com.mvntst.auto.auto.mvncntrltst
+package com.mvntst.auto.auto.testmavencentral
 
 import android.content.Context
 import android.util.AttributeSet
-import com.google.android.material.textview.MaterialTextView
+import com.mvntst.auto.auto.mvncntrltst.BaseEchoView
 
-class EchoView @JvmOverloads constructor(
+class CustomEchoView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
