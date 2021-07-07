@@ -1,3 +1,4 @@
 include ':mvncntrltst'
 include ':app'
 rootProject.name = "TestMavenCentral"
+include ':core'
