@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="core_primary_color">#CC0000</color>
+    <color name="core_primary_color_private">#CC0000</color>
+</resources>
