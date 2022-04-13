@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TestMavenCentral">
-        <activity android:name="com.mvntst.auto.auto.testmavencentral.MainActivity">
+
+        <activity
+            android:name="com.mvntst.auto.auto.testmavencentral.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,5 +20,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
