@@ -16,4 +16,14 @@ class EchoView @JvmOverloads constructor(
     fun echo() {
         Echo.echo()
     }
+
+//    context(EchoContext)
+    override fun clearFocus() {
+        super.clearFocus()
+    }
 }
+
+internal object EchoContext
+
+// TODO: Looks like Kotlin IR is able to check function expression etc.
+// TODO: Need to dig deeply in IR
